@@ -32,6 +32,8 @@ const CanvasLib = {
       "#B100FE",
       "#FF006E",
     ];
+    const randomcolor = colors[Math.floor(Math.random() * 100) % 16];
+    return randomcolor;
   },
 };
 
